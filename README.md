@@ -23,3 +23,5 @@ filters using openCV, with some hyper-parameter optimization I could get most of
 - Feed those dataset to SVM and KNN by getting the histogram of gradients(HOG) features. 
 
 - Model had %96.2 accuracy with SVM.
+
+Model Running Video: https://vimeo.com/370869897
