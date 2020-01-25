@@ -19,3 +19,7 @@ filters using openCV, with some hyper-parameter optimization I could get most of
 - Then, I created a dataset by cropping those areas of interest and labeling them with hand as what digit they are.
 
 - Applied data-augmentation(rotating, adding noise, shifting) methods to the labeled dataset, made the number of samples on each number equal.
+
+- Feed those dataset to SVM and KNN by getting the histogram of gradients(HOG) features. 
+
+- Model had %96.2 accuracy with SVM.
